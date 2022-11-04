@@ -1,0 +1,43 @@
+h1 {
+
+  text-align: center;
+}
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+margin: auto;
+}
+
+td {
+border: 1px solid #dddddd;
+text-align: center;
+padding: 4px;
+}
+
+.box {
+position: relative;
+color: black;
+text-align: center;
+width: 100px;
+padding: 50px 10px;
+margin: 20px;
+cursor: pointer;
+}
+
+[draggable] {
+user-select: none;
+}
+.ay {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+}
+button {
+color: blue;
+
+}
+button:hover{
+
+background-color: aqua;
+}
